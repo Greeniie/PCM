@@ -3326,7 +3326,6 @@ html.no-csstransitions .hero-content {
   }
 
 
-
 }
 
 
@@ -3447,12 +3446,7 @@ html.no-csstransitions .hero-content {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-flow: row nowrap;
-  -ms-flex-flow: row nowrap;
-  flex-flow: row nowrap;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  flex-direction: column;
 }
 
 .church-staff__name {
@@ -3472,14 +3466,13 @@ html.no-csstransitions .hero-content {
   -webkit-flex: 0 0 8rem;
   -ms-flex: 0 0 8rem;
   flex: 0 0 8rem;
-  max-width: 8rem;
-  margin-right: 2rem;
+  max-width: 100%;
 }
 
 .church-staff__picture img {
-  width: 8rem;
-  height: 8rem;
-  border-radius: 50%;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
 }
 
 /* ------------------------------------------------------------------- 
