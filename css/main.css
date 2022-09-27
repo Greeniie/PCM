@@ -3559,17 +3559,7 @@ html.no-csstransitions .hero-content {
     font-size: 2rem;
   }
 
-  .church-staff__picture {
-    -webkit-flex: 0 0 6.4rem;
-    -ms-flex: 0 0 6.4rem;
-    flex: 0 0 6.4rem;
-    max-width: 6.4rem;
-  }
-
-  .church-staff__picture img {
-    width: 6.4rem;
-    height: 6.4rem;
-  }
+  
 
   .event-thumb {
     padding: 1.6rem;
