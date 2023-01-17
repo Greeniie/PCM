@@ -2061,14 +2061,31 @@ input::-moz-focus-inner {
  * # hero
  *
  * ------------------------------------------------------------------- */
-.s-hero {
+/* .s-hero {
   width: 100%;
   height: 100vh;
   min-height: 82rem;
   overflow: hidden;
   background-color: transparent;
   position: relative;
-}
+
+  background-image: url("../images/screen.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+.s-hero {
+  width: 100%;
+  height: 100vh;
+  min-height: 82rem;
+  overflow: hidden;
+  background-image: url('../images/great.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;}
 
 .s-hero::before {
   display: block;
